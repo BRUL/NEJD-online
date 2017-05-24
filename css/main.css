@@ -1,0 +1,54 @@
+
+body {
+    font-family: "Arial" sans-serif;
+}
+
+.container-fluid {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+a {
+    color: #000000;
+}
+
+.header {
+  border: none;
+}
+
+.logo img {
+  padding: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 140px;
+  min-width: 60px
+}
+
+.menu a {
+  color: #000000;
+  margin-left: 1em;
+}
+
+.project {
+  text-align: center;
+}
+.project img {
+  /*width: 100%;*/
+}
+.project p {
+  visibility: hidden;
+}
+.project a:hover + p {
+  visibility: visible;
+}
+
+.carousel .item img {
+  /*height: 500px;*/
+  margin: auto;
+}
+.carousel-control.left, .carousel-control.right {
+  background: none;
+}
+.carousel  .item p {
+  text-align: center;
+}
