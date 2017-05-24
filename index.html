@@ -7,10 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NEJD</title>
 
-
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-custom.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -25,19 +23,21 @@
     <!-- website header -->
     <div class="header row">
       <!-- logo -->
-      <div class="col-xs-12 col-sm-4 logo">
-        <img src="images/NEJD-logo.png" alt="NEJD">
+      <div class="col-sm-4 logo">
+        <a href="index.html"><img src="img/NEJD-logo.png" alt="NEJD"></a>
       </div>
 
       <!-- menu -->
-      <p class="col-xs-12 col-sm-8 menu">
+      <p class="col-sm-8 menu">
         <a href="index.html#/projects">Projecten</a>
         <a href="index.html#/info">Informatie</a>
         <a href="index.html#/contact">Contact</a>
       </p>
-  </div>
 
-    <div data-ng-view></div>
+    </div>
+
+    <!-- content -->
+    <div class="row" data-ng-view></div>
   </div>
 
   <script src="js/vendors/jquery.min.js"></script>

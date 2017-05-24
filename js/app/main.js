@@ -2,22 +2,27 @@ angular.module('sw', ['ui.bootstrap', 'ngSanitize', 'ngRoute'])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/projects/:projectId', {
+        title: 'project',
         controller: 'MainCtrl',
         templateUrl: 'js/app/views/project.html'
       })
       .when('/projects', {
+        title: 'projects',
         controller: 'StaticCtrl',
         templateUrl: 'js/app/views/projects.html'
       })
       .when('/info', {
+        title: 'info',
         controller: 'StaticCtrl',
         templateUrl: 'js/app/views/info.html'
       })
       .when('/contact', {
+        title: 'contact',
         controller: 'StaticCtrl',
         templateUrl: 'js/app/views/contact.html'
       })
       .otherwise({
+        title: 'projects',
         controller: 'StaticCtrl',
         templateUrl: 'js/app/views/projects.html'
       });

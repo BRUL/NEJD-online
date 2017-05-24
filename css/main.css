@@ -12,38 +12,52 @@ a {
     color: #000000;
 }
 
-.header {
+.header, .content {
   border: none;
+  padding: 2em 4em 4em;
 }
 
+.logo {
+  padding: 0;
+}
 .logo img {
   padding: 0;
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
   width: 100%;
   max-width: 140px;
-  min-width: 60px
+  min-width: 60px;
 }
 
+.menu {
+  padding: 0;
+  text-align: right;
+  margin-top: 1em;
+}
 .menu a {
   color: #000000;
   margin-left: 1em;
 }
+.menu a.active {
+  text-decoration: underline;
+}
 
 .project {
-  text-align: center;
+  text-align: left;
+  padding: : 4em;
 }
-.project img {
-  /*width: 100%;*/
+.project a img {
+  width: 100%;
 }
 .project p {
   visibility: hidden;
+  text-align: left;
 }
 .project a:hover + p {
   visibility: visible;
 }
 
 .carousel .item img {
-  /*height: 500px;*/
+  max-height: 500px;
   margin: auto;
 }
 .carousel-control.left, .carousel-control.right {
@@ -51,4 +65,15 @@ a {
 }
 .carousel  .item p {
   text-align: center;
+}
+
+address.col-sm-6 {
+  padding: 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .menu {
+    margin: 0;
+  }
 }
