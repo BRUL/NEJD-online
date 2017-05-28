@@ -4,7 +4,7 @@ NEJD 2.6
 Todo
 ----
 
-- left-align text under project thumbnails
-- submit to github
-- create project thumbnails
-- 
+- <del>left-align text under project thumbnails</del>
+- <del>submit to github</del>
+- <del>create project thumbnails</del>
+-
