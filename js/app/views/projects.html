@@ -1,10 +1,10 @@
 <div class="row projects">
   <!-- expanded view for larger screens -->
   <div class="col-sm-3 project hidden-xs" ng-repeat="(projectId, project) in projects | orderObjectBy:'-order'">
-    <a href="#/projects/{{projectId}}">
+    <a href="#/projects/{{project.name}}">
       <img ng-src="{{project.thumb}}">
     </a>
-    <p ng-bind-html="project.title">Gloriette. Poperinge, 2015.</p>
+    <p ng-bind-html="project.title"></p>
   </div>
 
   <!-- carousel view for smaller screens -->
@@ -15,7 +15,7 @@
         <a href="#/projects/{{projectId}}">
           <img ng-src="{{project.thumb}}">
         </a>
-        <p ng-bind-html="project.title">Gloriette. Poperinge, 2015.</p>
+        <p ng-bind-html="project.title"></p>
       </div>
     </div>
 

@@ -3,7 +3,7 @@
   <div class="carousel-inner" role="listbox">
     <div class="item" ng-repeat="item in currentProject.pictures" ng-class="{'active': $index == 0}">
       <img ng-src="{{item.src}}" alt="">
-      <p>{{item.description}}</p>
+      <div ng-bind-html="item.description" class="description"></div>
     </div>
   </div>
 
