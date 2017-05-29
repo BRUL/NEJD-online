@@ -1,6 +1,7 @@
 angular.module('sw')
   .constant('projects', {
     'kolom': {
+      order: 1703,
       title: 'Kolom. Bookcase, 2017.',
       thumb: 'img/kolom/kolom-thumb-400.jpg',
       pictures: [
@@ -23,6 +24,7 @@ angular.module('sw')
       ]
     },
     'folieadeux': {
+      order: 1701,
       title: 'Folie à Deux. Ghent, 2017.',
       thumb: 'img/folieadeux/folieadeux-thumb-400.jpg',
       pictures: [
@@ -69,6 +71,7 @@ angular.module('sw')
       ]
     },
     'tafel': {
+      order: 1510,
       title: 'Terrasmeubel. Table, 2015.',
       thumb: 'img/tafel/tafel-thumb-400.jpg',
       pictures: [
@@ -91,6 +94,7 @@ angular.module('sw')
       ]
     },
     'gloriette': {
+      order: 1509,
       title: 'Gloriette. Poperinge, 2015.',
       thumb: 'img/gloriette/gloriette-thumb-400.jpg',
       pictures: [
