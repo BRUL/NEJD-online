@@ -1,6 +1,7 @@
 .container-fluid {
   padding-left: 1.5em;
   padding-right: 1.5em;
+  padding-bottom: 5em;
 }
 
 a {
@@ -8,7 +9,7 @@ a {
 }
 
 .header, .content {
-  padding: 4em 4em 4em;
+  padding: 3em 4em 4em;
 }
 
 .logo {
@@ -60,6 +61,7 @@ a {
 }
 .carousel .item p {
   text-align: center;
+  margin-top: 1em;
 }
 
 address.col-sm-6 {
