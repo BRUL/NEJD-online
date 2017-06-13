@@ -3,7 +3,8 @@ angular.module('sw')
     'kolom': {
       name:'kolom',
       order: 1703,
-      title: 'Kolom. Bookcase, 2017.',
+      title: 'Kolom',
+      description: 'Bookcase, 2017.',
       thumb: 'img/kolom/kolom-thumb-400.jpg',
       pictures: [
         {
@@ -24,14 +25,15 @@ angular.module('sw')
         },
         {
           src: '',
-          description: "<h1>Kolom</h1><p>Kolom is <em>de ruggengraat</em> die de boeken een vertikale positie in de ruimte laat aannemen.</p>"
+          description: "<p>Kolom is de ruggengraat die de boeken een vertikale positie in de ruimte laat aannemen.</p><p>Kolom is een nog in proces zijnde zoektocht naar de interactie tussen het boek, de verzameling en de ruimte.</p>"
         }
       ]
     },
     'folieadeux': {
       name:'folieadeux',
       order: 1701,
-      title: 'Folie à Deux. Ghent, 2017.',
+      title: 'Folie à Deux',
+      description:'Ghent, 2017.',
       thumb: 'img/folieadeux/folieadeux-thumb-400.jpg',
       pictures: [
         {
@@ -79,7 +81,8 @@ angular.module('sw')
     'tafel': {
       name:'tafel',
       order: 1510,
-      title: 'Terrasmeubel. Table, 2015.',
+      title: 'Terrasmeubel',
+      description:'Table, 2015.',
       thumb: 'img/tafel/tafel-thumb-400.jpg',
       pictures: [
         {
@@ -103,40 +106,41 @@ angular.module('sw')
     'gloriette': {
       name:'gloriette',
       order: 1509,
-      title: 'Gloriette. Poperinge, 2015.',
+      title: 'Gloriette',
+      description:'Poperinge, 2015.',
       thumb: 'img/gloriette/gloriette-thumb-400.jpg',
       pictures: [
         {
           src: 'img/gloriette/17kleur2.jpeg',
-          description: 'Zeventien kleur twee.'
+          description: ''
         },
     		{
           src: 'img/gloriette/2deep perspectif.jpeg',
-          description: 'Twee diep perspectief.'
+          description: ''
         },
     		{
           src: 'img/gloriette/5lichtstreep.jpeg',
-          description: 'Vijf lichtstreep.'
+          description: ''
         },
         {
           src: 'img/gloriette/6altheshadow.jpeg',
-          description: 'Zes alle schaduwen.'
+          description: ''
         },
         {
           src: 'img/gloriette/8kleur1.jpeg',
-          description: 'Acht kleur één.'
+          description: ''
         },
         {
           src: 'img/gloriette/9back4.jpeg',
-          description: 'Negen achterkant vier.'
+          description: ''
         },
         {
           src: 'img/gloriette/1deur.jpeg',
-          description: 'Één deur.'
+          description: ''
         },
         {
           src: 'img/gloriette/13water2.jpeg',
-          description: 'Dertien water twee.'
+          description: ''
         }
       ]
 
