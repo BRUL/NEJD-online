@@ -1,4 +1,10 @@
-<div id="carousel-project" class="carousel slide" data-ride="carousel" data-interval="0" data-keyboard="true">
+<div class="row header-tag">
+  <!-- current project tag -->
+  <p class="col-xs-12">
+    <span ng-cloak>{{currentProject.title}}: {{currentProject.description}}</span>
+  </p>
+</div>
+<div id="carousel-project" class="carousel slide project-carousel" data-ride="carousel" data-interval="0" data-keyboard="true">
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item" ng-repeat="item in currentProject.pictures" ng-class="{'active': $index == 0}">

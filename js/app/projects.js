@@ -4,7 +4,7 @@ angular.module('sw')
       name:'kolom',
       order: 1703,
       title: 'Kolom',
-      description: 'Bookcase, 2017.',
+      description: 'Boekenkast, 2017.',
       thumb: 'img/kolom/kolom-thumb-400.jpg',
       pictures: [
         {
@@ -33,7 +33,7 @@ angular.module('sw')
       name:'folieadeux',
       order: 1701,
       title: 'Folie à Deux',
-      description:'Ghent, 2017.',
+      description:'Koffiehuis in Gent, 2017.',
       thumb: 'img/folieadeux/folieadeux-thumb-400.jpg',
       pictures: [
         {
@@ -82,7 +82,7 @@ angular.module('sw')
       name:'tafel',
       order: 1510,
       title: 'Terrasmeubel',
-      description:'Table, 2015.',
+      description:'Tafel, 2015.',
       thumb: 'img/tafel/tafel-thumb-400.jpg',
       pictures: [
         {
@@ -107,7 +107,7 @@ angular.module('sw')
       name:'gloriette',
       order: 1509,
       title: 'Gloriette',
-      description:'Poperinge, 2015.',
+      description:'Tuinomgeving in Poperinge, 2015.',
       thumb: 'img/gloriette/gloriette-thumb-400.jpg',
       pictures: [
         {
