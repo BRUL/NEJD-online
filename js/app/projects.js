@@ -5,14 +5,14 @@ angular.module('sw')
       order: 1703,
       title: 'Kolom',
       description: 'Boekenkast, 2017.',
-      thumb: 'img/kolom/kolom0.jpg',
+      thumb: 'img/kolom/kolom0.tif',
       pictures: [
         {
-          src: 'img/kolom/kolom1.jpg',
+          src: 'img/kolom/kolom1.tif',
           description: ''
         },
         {
-          src: 'img/kolom/kolom2.jpg',
+          src: 'img/kolom/kolom2.tif',
           description: ''
         },
         {
@@ -30,71 +30,59 @@ angular.module('sw')
       order: 1701,
       title: 'Folie à Deux',
       description:'Koffiehuis in Gent, 2017.',
-      thumb: 'img/folieadeux/folieadeux-thumb-400.jpg',
+      thumb: 'img/folieadeux/folieadeux0.jpg',
       pictures: [
         {
-          src: 'img/folieadeux/folieadeux-1.jpeg',
+          src: 'img/folieadeux/folieadeux1.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux-2.jpeg',
+          src: 'img/folieadeux/folieadeux2.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux-3.jpeg',
+          src: 'img/folieadeux/folieadeux3.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux-4.jpeg',
+          src: 'img/folieadeux/folieadeux4.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux-5.jpeg',
+          src: 'img/folieadeux/folieadeux5.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux-6.jpeg',
+          src: 'img/folieadeux/folieadeux6.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux-7.jpeg',
+          src: 'img/folieadeux/folieadeux7.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux-8.jpeg',
-          description: ''
-        },
-        {
-          src: 'img/folieadeux/folieadeux-9.jpeg',
-          description: ''
-        },
-        {
-          src: 'img/folieadeux/folieadeux-10.jpeg',
+          src: 'img/folieadeux/folieadeux8.jpg',
           description: ''
         }
       ]
     },
     'tafel': {
-      name:'tafel',
+      name:'dolly parton',
       order: 1510,
-      title: 'Terrasmeubel',
+      title: 'dolly parton',
       description:'Tafel, 2015.',
-      thumb: 'img/tafel/tafel-thumb-400.jpg',
+      thumb: 'img/tafel/dollyparton0.jpg',
       pictures: [
         {
-          src: 'img/tafel/tafel-1.jpeg',
+          src: 'img/tafel/dollyparton1.jpg',
           description: ''
         },
         {
-          src: 'img/tafel/tafel-2.jpeg',
+          src: 'img/tafel/dollyparton2.jpg',
           description: ''
         },
         {
-          src: 'img/tafel/tafel-3.jpeg',
-          description: ''
-        },
-        {
-          src: 'img/tafel/tafel-4.jpeg',
+          src: 'img/tafel/dollyparton3.jpg',
           description: ''
         }
       ]
@@ -104,38 +92,38 @@ angular.module('sw')
       order: 1509,
       title: 'Gloriette',
       description:'Tuinomgeving in Poperinge, 2015.',
-      thumb: 'img/gloriette/gloriette-thumb-400.jpg',
+      thumb: 'img/gloriette/gloriette0.jpg',
       pictures: [
         {
-          src: 'img/gloriette/17kleur2.jpeg',
+          src: 'img/gloriette/gloriette1.jpg',
           description: ''
         },
     		{
-          src: 'img/gloriette/2deep perspectif.jpeg',
+          src: 'img/gloriette/gloriette2.jpg',
           description: ''
         },
     		{
-          src: 'img/gloriette/5lichtstreep.jpeg',
+          src: 'img/gloriette/gloriette3.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/6altheshadow.jpeg',
+          src: 'img/gloriette/gloriette4.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/8kleur1.jpeg',
+          src: 'img/gloriette/gloriette5.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/9back4.jpeg',
+          src: 'img/gloriette/gloriette6.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/1deur.jpeg',
+          src: 'img/gloriette/gloriette7.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/13water2.jpeg',
+          src: 'img/gloriette/gloriette8.jpg',
           description: ''
         }
       ]
