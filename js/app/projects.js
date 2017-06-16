@@ -5,22 +5,18 @@ angular.module('sw')
       order: 1703,
       title: 'Kolom',
       description: 'Boekenkast, 2017.',
-      thumb: 'img/kolom/kolom-thumb-400.jpg',
+      thumb: 'img/kolom/kolom0.jpg',
       pictures: [
         {
-          src: 'img/kolom/kolom-render-1.jpeg',
+          src: 'img/kolom/kolom1.jpg',
           description: ''
         },
         {
-          src: 'img/kolom/kolom-render-2.jpeg',
+          src: 'img/kolom/kolom2.jpg',
           description: ''
         },
         {
-          src: 'img/kolom/kolom-render-3.jpeg',
-          description: ''
-        },
-        {
-          src: 'img/kolom/kolom-render-4.jpeg',
+          src: 'img/kolom/kolom3.jpg',
           description: ''
         },
         {
