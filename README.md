@@ -1,10 +1,9 @@
-NEJD 2.6
-==============
+NEJD online
+===========
 
-Todo
-----
+Principles
+----------
 
-- <del>left-align text under project thumbnails</del>
-- <del>submit to github</del>
-- <del>create project thumbnails</del>
--
+- show only one thing at a time
+- minimize scrolling, use clicking
+- intrigue, don't come near over-explaining

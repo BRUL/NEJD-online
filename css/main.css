@@ -1,3 +1,7 @@
+body {
+  font-family: 'Neue Haas Unica Pro', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
 .container-fluid {
   padding-left: 1.5em;
   padding-right: 1.5em;
