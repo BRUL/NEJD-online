@@ -22,9 +22,9 @@ angular.module('sw', ['ui.bootstrap', 'ngSanitize', 'ngRoute'])
         templateUrl: 'js/app/views/contact.html'
       })
       .otherwise({
-        title: 'projects',
+        title: '',
         controller: 'StaticCtrl',
-        templateUrl: 'js/app/views/projects.html'
+        templateUrl: 'js/app/views/splash.html'
       });
   }])
 
