@@ -65,6 +65,7 @@ a {
 .project p {
   visibility: hidden;
   text-align: left;
+  margin-top: 1em;
 }
 .project a:hover + p {
   visibility: visible;

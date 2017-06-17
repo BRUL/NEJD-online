@@ -4,7 +4,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item" ng-repeat="item in currentProject.pictures" ng-class="{'active': $index == 0}">
-      <img ng-src="{{item.src}}" alt="">
+      <img ng-src="{{item.src}}">
       <div ng-bind-html="item.description" class="description"></div>
     </div>
   </div>
