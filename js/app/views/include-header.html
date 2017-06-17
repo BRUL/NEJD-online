@@ -1,0 +1,20 @@
+<!-- website header -->
+<div class="header row">
+  <!-- logo -->
+  <div class="col-sm-4 logo">
+    <a href="index.html#/projects"><img src="img/NEJD-logo.png" alt="NEJD"></a>
+  </div>
+
+  <!-- menu -->
+  <p class="col-sm-8 menu" ng-if="!currentProject.title">
+    <a href="index.html#/projects">Projecten</a>
+    <a href="index.html#/info">Informatie</a>
+    <a href="index.html#/contact">Contact</a>
+  </p>
+
+  <p class="col-sm-8 menu" ng-if="currentProject.title">
+    <!-- current project tag -->
+      <span ng-bind-html="currentProject.title"></span>
+  </p>
+
+</div>

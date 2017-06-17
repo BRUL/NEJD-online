@@ -19,26 +19,8 @@
 </head>
 
 <body data-ng-app="sw">
-  <div class="container-fluid">
-    <!-- website header -->
-    <div class="header row">
-      <!-- logo -->
-      <div class="col-sm-4 logo">
-        <a href="index.html"><img src="img/NEJD-logo.png" alt="NEJD"></a>
-      </div>
-      
-      <!-- menu -->
-      <p class="col-sm-8 menu">
-        <a href="index.html#/projects">Projecten</a>
-        <a href="index.html#/info">Informatie</a>
-        <a href="index.html#/contact">Contact</a>
-      </p>
-
-    </div>
-
-    <!-- content -->
-    <div data-ng-view></div>
-  </div>
+  <!-- content -->
+  <div class="container-fluid" data-ng-view></div>
 
   <script src="js/vendors/jquery.min.js"></script>
   <script src="js/vendors/angular.min.js"></script>
