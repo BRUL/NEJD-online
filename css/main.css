@@ -28,11 +28,14 @@ a {
 .logo {
   padding: 0;
 }
-.logo img {
+.logo img, .splash img {
   padding: 0;
   width: 100%;
   max-width: 140px;
-  //min-width: 60px;
+}
+.splash {
+  padding: 3em 0 0;
+  text-align: center;
 }
 
 .menu, .header-tag p {
@@ -62,6 +65,7 @@ a {
 .project p {
   visibility: hidden;
   text-align: left;
+  margin-top: 1em;
 }
 .project a:hover + p {
   visibility: visible;
