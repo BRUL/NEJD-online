@@ -5,18 +5,18 @@ angular.module('sw')
       order: 1703,
       title: 'Kolom',
       description: 'Boekenkast, 2017.',
-      thumb: 'img/kolom/kolom0.tif',
+      thumb: 'img/kolom/res1300/kolom0-1300.jpg',
       pictures: [
         {
-          src: 'img/kolom/kolom1.tif',
+          src: 'img/kolom/res1300/kolom1-1300.jpg',
           description: ''
         },
         {
-          src: 'img/kolom/kolom2.tif',
+          src: 'img/kolom/res1300/kolom2-1300.jpg',
           description: ''
         },
         {
-          src: 'img/kolom/kolom3.jpg',
+          src: 'img/kolom/res1300/kolom3-1300.jpg',
           description: ''
         },
         {
@@ -30,7 +30,7 @@ angular.module('sw')
       order: 1701,
       title: 'Folie à Deux',
       description:'Koffiehuis in Gent, 2017.',
-      thumb: 'img/folieadeux/folieadeux0.jpg',
+      thumb: 'img/folieadeux/resMax/folieadeux0.jpg',
       pictures: [
         {
           src: 'img/folieadeux/folieadeux1.jpg',
@@ -67,22 +67,22 @@ angular.module('sw')
       ]
     },
     'tafel': {
-      name:'dolly parton',
+      name:'still',
       order: 1510,
-      title: 'dolly parton',
+      title: 'still',
       description:'Tafel, 2015.',
-      thumb: 'img/tafel/dollyparton0.jpg',
+      thumb: 'img/still/res1300/still0-1300.jpg',
       pictures: [
         {
-          src: 'img/tafel/dollyparton1.jpg',
+          src: 'img/still/res1300/still1-1300.jpg',
           description: ''
         },
         {
-          src: 'img/tafel/dollyparton2.jpg',
+          src: 'img/still/res1300/still2-1300.jpg',
           description: ''
         },
         {
-          src: 'img/tafel/dollyparton3.jpg',
+          src: 'img/still/res1300/still3-1300.jpg',
           description: ''
         }
       ]
@@ -92,38 +92,38 @@ angular.module('sw')
       order: 1509,
       title: 'Gloriette',
       description:'Tuinomgeving in Poperinge, 2015.',
-      thumb: 'img/gloriette/gloriette0.jpg',
+      thumb: 'img/gloriette/res1300/gloriette0-1300.jpg',
       pictures: [
         {
-          src: 'img/gloriette/gloriette1.jpg',
+          src: 'img/gloriette/res1300/gloriette1-1300.jpg',
           description: ''
         },
     		{
-          src: 'img/gloriette/gloriette2.jpg',
+          src: 'img/gloriette/res1300/gloriette2-1300.jpg',
           description: ''
         },
     		{
-          src: 'img/gloriette/gloriette3.jpg',
+          src: 'img/gloriette/res1300/gloriette3-1300.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/gloriette4.jpg',
+          src: 'img/gloriette/res1300/gloriette4-1300.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/gloriette5.jpg',
+          src: 'img/gloriette/res1300/gloriette5-1300.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/gloriette6.jpg',
+          src: 'img/gloriette/res1300/gloriette6-1300.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/gloriette7.jpg',
+          src: 'img/gloriette/res1300/gloriette7-1300.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/gloriette8.jpg',
+          src: 'img/gloriette/res1300/gloriette8-1300.jpg',
           description: ''
         }
       ]
