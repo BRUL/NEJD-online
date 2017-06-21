@@ -28,7 +28,7 @@ angular.module('sw')
     'folieadeux': {
       name:'folieadeux',
       order: 1701,
-      title: 'Folie à Deux',
+      title: 'Folie à Deux, Gent',
       description:'Koffiehuis in Gent, 2017.',
       thumb: 'img/folieadeux/resMax/folieadeux0.jpg',
       pictures: [
@@ -90,7 +90,7 @@ angular.module('sw')
     'gloriette': {
       name:'gloriette',
       order: 1509,
-      title: 'Gloriette',
+      title: 'Gloriette, Heuvelland',
       description:'Tuinomgeving in Poperinge, 2015.',
       thumb: 'img/gloriette/res1300/gloriette0-1300.jpg',
       pictures: [
