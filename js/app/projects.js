@@ -30,38 +30,38 @@ angular.module('sw')
       order: 1701,
       title: 'Folie à Deux, Gent',
       description:'Koffiehuis in Gent, 2017.',
-      thumb: 'img/folieadeux/resMax/folieadeux0.jpg',
+      thumb: 'img/folieadeux/res1300/folieàdeux0-1300.jpg',
       pictures: [
         {
-          src: 'img/folieadeux/folieadeux1.jpg',
+          src: 'img/folieadeux/res1300/folieàdeux1-1300.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux2.jpg',
+          src: 'img/folieadeux/res1300/folieàdeux2-1300.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux3.jpg',
+          src: 'img/folieadeux/res1300/folieàdeux3-1300.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux4.jpg',
+          src: 'img/folieadeux/res1300/folieàdeux4-1300.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux5.jpg',
+          src: 'img/folieadeux/res1300/folieàdeux5-1300.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux6.jpg',
+          src: 'img/folieadeux/res1300/folieàdeux6-1300.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux7.jpg',
+          src: 'img/folieadeux/res1300/folieàdeux7-1300.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/folieadeux8.jpg',
+          src: 'img/folieadeux/res1300/folieàdeux8-1300.jpg',
           description: ''
         }
       ]
