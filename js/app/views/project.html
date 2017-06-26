@@ -4,7 +4,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item" ng-repeat="item in currentProject.pictures" ng-class="{'active': $index == 0}">
-      <img ng-src="{{item.src}}">
+      <!-- <img ng-src="{{item.src}}"> -->
+      <picture ng-if="item.src != ''">
+        <source media="(min-width: 2400px)" ng-srcset="img/{{currentProject.name}}/resMax/{{item.src}}">
+        <source media="(min-width: 1600px)" ng-srcset="img/{{currentProject.name}}/res1300/{{item.src}}">
+        <source media="(min-width: 1000px)" ng-srcset="img/{{currentProject.name}}/res900/{{item.src}}">
+        <img ng-src="img/{{currentProject.name}}/res600/{{item.src}}">
+      </picture>
       <div ng-bind-html="item.description" class="description"></div>
     </div>
   </div>

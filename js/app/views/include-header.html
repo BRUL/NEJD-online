@@ -2,7 +2,7 @@
 <div class="header row">
   <!-- logo -->
   <div class="col-sm-4 logo">
-    <a href="index.html#/projects"><img src="img/NEJD-logo.png" alt="NEJD"></a>
+    <a href="index.html#/projects"><img src="img/NEJD-logo.png" alt="NEJD" width="100"></a>
   </div>
 
   <!-- menu -->
@@ -12,9 +12,9 @@
     <a href="index.html#/contact">Contact</a>
   </p>
 
+  <!-- current project tag -->
   <p class="col-sm-8 menu" ng-if="currentProject.title">
-    <!-- current project tag -->
-      <span ng-bind-html="currentProject.title"></span>
+    <span ng-bind-html="currentProject.title"></span>
   </p>
 
 </div>

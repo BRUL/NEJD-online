@@ -5,18 +5,18 @@ angular.module('sw')
       order: 1703,
       title: 'Kolom',
       description: 'Boekenkast, 2017.',
-      thumb: 'img/kolom/res1300/kolom0-1300.jpg',
+      thumb: 'kolom0.jpg',
       pictures: [
         {
-          src: 'img/kolom/res1300/kolom1-1300.jpg',
+          src: 'kolom1.jpg',
           description: ''
         },
         {
-          src: 'img/kolom/res1300/kolom2-1300.jpg',
+          src: 'kolom2.jpg',
           description: ''
         },
         {
-          src: 'img/kolom/res1300/kolom3-1300.jpg',
+          src: 'kolom3.jpg',
           description: ''
         },
         {
@@ -30,59 +30,59 @@ angular.module('sw')
       order: 1701,
       title: 'Folie à Deux, Gent',
       description:'Koffiehuis in Gent, 2017.',
-      thumb: 'img/folieadeux/res1300/folieàdeux0-1300.jpg',
+      thumb: 'folieadeux0.jpg',
       pictures: [
         {
-          src: 'img/folieadeux/res1300/folieàdeux1-1300.jpg',
+          src: 'folieadeux1.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/res1300/folieàdeux2-1300.jpg',
+          src: 'folieadeux2.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/res1300/folieàdeux3-1300.jpg',
+          src: 'folieadeux3.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/res1300/folieàdeux4-1300.jpg',
+          src: 'folieadeux4.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/res1300/folieàdeux5-1300.jpg',
+          src: 'folieadeux5.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/res1300/folieàdeux6-1300.jpg',
+          src: 'folieadeux6.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/res1300/folieàdeux7-1300.jpg',
+          src: 'folieadeux7.jpg',
           description: ''
         },
         {
-          src: 'img/folieadeux/res1300/folieàdeux8-1300.jpg',
+          src: 'folieadeux8.jpg',
           description: ''
         }
       ]
     },
-    'tafel': {
-      name:'still',
+    'still': {
+      name: 'still',
       order: 1510,
-      title: 'still',
-      description:'Tafel, 2015.',
-      thumb: 'img/still/res1300/still0-1300.jpg',
+      title: 'Still',
+      description: 'Tafel, 2015.',
+      thumb: 'still0.jpg',
       pictures: [
         {
-          src: 'img/still/res1300/still1-1300.jpg',
+          src: 'still1.jpg',
           description: ''
         },
         {
-          src: 'img/still/res1300/still2-1300.jpg',
+          src: 'still2.jpg',
           description: ''
         },
         {
-          src: 'img/still/res1300/still3-1300.jpg',
+          src: 'still3.jpg',
           description: ''
         }
       ]
@@ -92,38 +92,38 @@ angular.module('sw')
       order: 1509,
       title: 'Gloriette, Heuvelland',
       description:'Tuinomgeving in Poperinge, 2015.',
-      thumb: 'img/gloriette/res1300/gloriette0-1300.jpg',
+      thumb: 'gloriette0.jpg',
       pictures: [
         {
-          src: 'img/gloriette/res1300/gloriette1-1300.jpg',
+          src: 'gloriette1.jpg',
           description: ''
         },
     		{
-          src: 'img/gloriette/res1300/gloriette2-1300.jpg',
+          src: 'gloriette2.jpg',
           description: ''
         },
     		{
-          src: 'img/gloriette/res1300/gloriette3-1300.jpg',
+          src: 'gloriette3.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/res1300/gloriette4-1300.jpg',
+          src: 'gloriette4.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/res1300/gloriette5-1300.jpg',
+          src: 'gloriette5.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/res1300/gloriette6-1300.jpg',
+          src: 'gloriette6.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/res1300/gloriette7-1300.jpg',
+          src: 'gloriette7.jpg',
           description: ''
         },
         {
-          src: 'img/gloriette/res1300/gloriette8-1300.jpg',
+          src: 'gloriette8.jpg',
           description: ''
         }
       ]
