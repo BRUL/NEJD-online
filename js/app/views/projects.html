@@ -3,7 +3,7 @@
 <div class="row projects">
   <!-- expanded view for larger screens -->
   <div class="col-sm-3 project hidden-xs" ng-repeat="(projectId, project) in projects | orderObjectBy:'-order'">
-    <a href="#/projects/{{project.name}}">
+    <a href="/NEJD-online-2.6/projects/{{project.name}}">
       <img ng-src="img/{{project.name}}/res600/{{project.thumb}}">
     </a>
     <p ng-bind-html="project.title"></p>
@@ -14,10 +14,10 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item" ng-repeat="(projectId, project) in projects | orderObjectBy:'-order'" ng-class="{'active': $index == 0}">
-        <a href="#/projects/{{projectId}}">
+        <a href="/NEJD-online-2.6/projects/{{project.name}}">
           <img ng-src="img/{{project.name}}/res600/{{project.thumb}}">
         </a>
-        <p ng-bind-html="project.title"></p>
+        <p><a ng-bind-html="project.title" href="/NEJD-online-2.6/projects/{{project.name}}"></a></p>
       </div>
     </div>
 

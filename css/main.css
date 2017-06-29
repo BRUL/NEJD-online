@@ -1,74 +1,117 @@
+/*
+* Global styles
+*/
 body {
   font-family: 'Neue Haas Unica Pro', 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
-.container-fluid {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  padding-bottom: 5em;
+/*
+* Splash screen with logo centered.
+*/
+
+.splash {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.splash a {
+  display: block;
+  height: 100vh;
+  text-align: center;
+  vertical-align: middle;
 }
 
-a {
-    color: #000000;
+.splash a:before {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    height: 100%;
 }
+
+.splash img {
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+}
+
+/*
+* Header
+*/
 
 .header {
-  padding: 3em 4em 0em;
-  margin: 0;
-}
-.content {
-  padding: 4em 4em 0em;
-}
-.header-tag {
-  padding: 0 4em;
-}
-.projects, .project-carousel {
-  margin: 4em 0;
-  height: 100%;
-  /*height: 100vh;*/
+  padding: 1em;
 }
 
-.logo {
+.header .logo, .header .menu {
   padding: 0;
-}
-.logo img, .splash img {
-  padding: 0;
-}
-.splash {
-  padding: 30vh 0 0;
+  margin: 0 auto 1em;
   text-align: center;
 }
 
-.menu {
+.header .logo {
+
+}
+.header .logo a {
   padding: 0;
-  text-align: right;
-  margin-top: 1em;
 }
-.menu a {
+.header .logo a img {
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+}
+
+.header .menu a {
   color: #000000;
-  margin-left: 1em;
+  padding: 0 1em;
 }
-.menu a.active {
+
+.header .menu a:active, .header .menu a.active {
   text-decoration: underline;
 }
 
-.project {
-  text-align: left;
-  padding: 0 4em;
-}
-.project a img {
-  width: 100%;
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 4em;
+  }
+
+  .header .logo {
+    text-align: left;
+  }
+
+  .header .logo img {
+    height: 3em;
+  }
+
+  .header .menu {
+    text-align: right;
+    height: 3em;
+  }
+
+  .header .menu a {
+    padding: 0 0 0 1em;
+  }
+
+  .header .menu a:before, .header .menu span:before, .header .logo a {    /* create a full-height inline block pseudo=element */
+      content: ' ';
+      display: inline-block;
+      vertical-align: bottom;;  /* vertical alignment of the inline element */
+      height: 100%;
+  }
 }
 
-.project p {
-  visibility: hidden;
-  text-align: left;
-  margin-top: 1em;
+/*
+* Text content
+*/
+.content {
+  padding: 1em;
+  margin-bottom: 4em;
 }
-.project a:hover + p {
-  visibility: visible;
+address {
+  padding-left: 0;
+  margin: 0;
 }
 
+<<<<<<< HEAD
 .carousel .item { 
     width: 100%;
     height: 100%;
@@ -78,37 +121,133 @@ a {
   height:100%;
   width:auto;
   vertical-align: top;
+=======
+@media screen and (min-width: 768px) {
+  .content {
+    padding: 4em;
+  }
+>>>>>>> 0547e68b934bcc50687973a1830a5b81b73b2929
 }
 
-.carousel .item {
-  text-align: center;
+/*
+* Project overview
+*/
+.projects {
+  margin: auto;
+  margin-bottom: 4em;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
-.carousel-control.left, .carousel-control.right {
+.projects .carousel-control {
   background: none;
   color: #000000;
-  width: 30%;
-}
-.carousel .item p {
-  text-align: center;
-  margin-top: 1em;
+  width: 20vw;
 }
 
-.description {
-  max-width: 500px;
+.project .item {
   margin: auto;
 }
-.description, .description p {
-  text-align: left !important;
+
+.projects .item a img {
+  margin: auto;
+  max-height: 60vh;
 }
 
-address.col-sm-12 {
-  padding-left: 0;
+.projects .item p {
+  padding: 1em 0;
+  text-align: center;
+}
+.projects .item p a {
+  color: #000000;
 }
 
-/* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .menu, .breadcrumb {
+  .projects {
     margin: 0;
+    max-width: 100vw;
+    margin: -15px;
+  }
+
+  .projects .project {
+    text-align: left;
+    padding: 0 4em;
+  }
+
+  .projects .project a img {
+    width: 100%;
+  }
+
+  .projects .project p {
+    padding: 1em 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .projects .project a:hover + p {
+    transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+}
+
+/*
+* Project view
+*/
+
+.project-carousel {
+  margin-bottom: 4em;
+}
+
+/* items */
+.project-carousel .item {
+  margin: auto;
+  text-align: center;
+}
+
+.project-carousel img {
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+.project-carousel .description p {
+  text-align: left;
+  max-width: 50vw;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+/* controls */
+.project-carousel .carousel-control {
+  background: none;
+  color: #000000;
+  width: 40vw;
+}
+.project-carousel .carousel-control .icon-prev {
+  left: 20%;
+}
+.project-carousel .carousel-control .icon-next {
+  right: 20%;
+}
+
+@media screen and (min-width: 768px) {
+  .project-carousel img {
+    max-width: 80vw;
+    max-height: 70vh;
+  }
+
+  .project-carousel .description {
+    text-align: left;
+    max-width: 50vw;
+    margin: auto;
   }
 }

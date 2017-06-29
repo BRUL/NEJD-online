@@ -2,19 +2,19 @@
 <div class="header row">
   <!-- logo -->
   <div class="col-sm-4 logo">
-    <a href="index.html#/projects"><img src="img/NEJD-logo.png" alt="NEJD" width="100"></a>
+    <a href="/NEJD-online-2.6/projects"><img src="img/NEJD-logo.png" alt="NEJD"></a>
   </div>
 
   <!-- menu -->
   <p class="col-sm-8 menu" ng-if="!currentProject.title">
-    <a href="index.html#/projects">Projecten</a>
-    <a href="index.html#/info">Informatie</a>
-    <a href="index.html#/contact">Contact</a>
+    <a ng-class="{'active': $root.title == 'projects'}" href="/NEJD-online-2.6/projects">Projecten</a>
+    <a ng-class="{'active': $root.title == 'info'}" href="/NEJD-online-2.6/info">Informatie</a>
+    <a ng-class="{'active': $root.title == 'contact'}" href="/NEJD-online-2.6/contact">Contact</a>
+    <a></a>
   </p>
 
   <!-- current project tag -->
   <p class="col-sm-8 menu" ng-if="currentProject.title">
-    <span ng-bind-html="currentProject.title"></span>
+    <span ng-bind-html="currentProject.description"></span>
   </p>
-
 </div>
