@@ -1,5 +1,8 @@
 angular.module('sw', ['ui.bootstrap', 'ngSanitize', 'ngRoute'])
-  .config(['$routeProvider', function ($routeProvider) {
+  .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+    // use the HTML5 History API
+    $locationProvider.html5Mode(true);
+
     $routeProvider
       .when('/projects/:projectId', {
         title: 'project',
@@ -44,20 +47,17 @@ angular.module('sw', ['ui.bootstrap', 'ngSanitize', 'ngRoute'])
       $timeout(function() {
         var projectId = $route.current.params.projectId;
         setCurrentProject(projectId);
-
-        /*var easeDurationInMiliseconds = 0;
-        $('html, body').animate({
-          scrollTop: angular.element('.current-project').offset().top
-        }, easeDurationInMiliseconds);*/
       }, 0);
     });
   }])
 
+  // controller for pages without a current project
   .controller('StaticCtrl', ['$scope', 'projects',
     function ($scope, projects) {
       $scope.projects = projects;
     }])
 
+  // sort project list by custom order
   .filter('orderObjectBy', function(){
  return function(input, attribute) {
     if (!angular.isObject(input)) return input;
