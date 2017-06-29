@@ -58,20 +58,29 @@ angular.module('sw', ['ui.bootstrap', 'ngSanitize', 'ngRoute'])
     }])
 
   // sort project list by custom order
-  .filter('orderObjectBy', function(){
- return function(input, attribute) {
-    if (!angular.isObject(input)) return input;
+  .filter('orderObjectBy',
+    function(){
+     return function(input, attribute) {
+        if (!angular.isObject(input)) return input;
 
-    var array = [];
-    for(var objectKey in input) {
-        array.push(input[objectKey]);
-    }
+        var array = [];
+        for(var objectKey in input) {
+            array.push(input[objectKey]);
+        }
 
-    array.sort(function(a, b){
-        a = parseInt(a[attribute]);
-        b = parseInt(b[attribute]);
-        return a - b;
-    });
-    return array;
- }
-});;
+        array.sort(function(a, b){
+            a = parseInt(a[attribute]);
+            b = parseInt(b[attribute]);
+            return a - b;
+        });
+        return array;
+     }
+   })
+
+   .run(['$rootScope', '$route',
+     function($rootScope, $route) {
+       $rootScope.$on("$routeChangeSuccess", function(currentRoute, previousRoute){
+       //Change page title, based on Route information
+       $rootScope.title = $route.current.title;
+     });
+}]);;
