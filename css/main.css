@@ -117,9 +117,10 @@ address {
 }
 
 .carousel .item picture img {
-  height:100%;
-  width:auto;
+  height: 100%;
+  width: auto;
   vertical-align: top;
+}
 
 @media screen and (min-width: 768px) {
   .content {
