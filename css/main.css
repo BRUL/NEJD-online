@@ -27,7 +27,7 @@ a.ninja {
 .splash {
   height: 100vh;
   width: 100vw;
-  margin: 0 -15px;
+  margin: 0;
   padding: 0;
   background: #ffffff;
 }
@@ -52,7 +52,7 @@ a.ninja {
 }
 
 .splash.ng-enter {
-  opacity: 0;
+  opacity: 1;
 }
 
 .splash-init .splash.ng-enter {
@@ -186,6 +186,7 @@ address {
 }
 .projects .item p a {
   color: #000000;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
