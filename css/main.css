@@ -4,6 +4,19 @@
 body {
   font-family: 'Neue Haas Unica Pro', 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
+abbr {
+  text-decoration: none;
+}
+p.credit {
+  font-size: 12px;
+}
+a, a.ninja:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+a.ninja {
+  text-decoration: none;
+}
 
 /*
 * Splash screen with logo centered.
@@ -12,9 +25,11 @@ body {
 .splash {
   height: 100vh;
   width: 100vw;
-  margin: 0;
+  margin: 0 -15px;
   padding: 0;
+  background: #ffffff;
 }
+
 .splash a {
   display: block;
   height: 100vh;
@@ -32,6 +47,26 @@ body {
 .splash img {
   display: inline-block;
   vertical-align: middle;  /* vertical alignment of the inline element */
+}
+
+.splash.ng-enter {
+  opacity: 0;
+}
+
+.splash-init .splash.ng-enter {
+  opacity: 1;
+}
+
+.splash.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+.splash.ng-leave {
+  transition: 0.5s linear all;
+  opacity: 1;
+}
+.splash.ng-leave.ng-leave-active {
+  opacity: 0;
 }
 
 /*
@@ -63,9 +98,10 @@ body {
 .header .menu a {
   color: #000000;
   padding: 0 1em;
+  text-decoration: none;
 }
 
-.header .menu a:active, .header .menu a.active {
+.header .menu a:active, .header .menu a.active, .header .menu a:hover {
   text-decoration: underline;
 }
 
@@ -109,17 +145,6 @@ body {
 address {
   padding-left: 0;
   margin: 0;
-}
-
-.carousel .item { 
-    width: 100%;
-    height: 100%;
-}
-
-.carousel .item picture img {
-  height: 100%;
-  width: auto;
-  vertical-align: top;
 }
 
 @media screen and (min-width: 768px) {
@@ -204,7 +229,7 @@ address {
 */
 
 .project-carousel {
-  margin-bottom: 4em;
+
 }
 
 /* items */
@@ -216,6 +241,7 @@ address {
 .project-carousel img {
   max-width: 80vw;
   max-height: 80vh;
+  width: auto;
 }
 
 .project-carousel .description p {
@@ -239,6 +265,13 @@ address {
 }
 
 @media screen and (min-width: 768px) {
+  .project-carousel {
+    margin-bottom: 4em;
+  }
+
+  .project-carousel .item {
+    min-height: 50vh;
+  }
   .project-carousel img {
     max-width: 80vw;
     max-height: 70vh;
