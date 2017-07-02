@@ -20,8 +20,12 @@ angular.module('sw')
           description: ''
         },
         {
+          src: 'kolom4.jpg',
+          description: ''
+        },
+        {
           src: '',
-          description: "<p>Kolom is de ruggengraat die de boeken een vertikale positie in de ruimte laat aannemen.</p><p>Kolom is een nog in proces zijnde zoektocht naar de interactie tussen het boek, de verzameling en de ruimte.</p>"
+          description: "<p>Kolom is de ruggengraat die de boeken een vertikale positie in de ruimte laat aannemen.</p><p>Kolom is een nog in proces zijnde zoektocht naar de interactie tussen het boek, de verzameling en de ruimte.</p><p>Je kan Kolom op de voet volgen via Facebook of Instagram.</p>"
         }
       ]
     },
@@ -63,6 +67,10 @@ angular.module('sw')
         {
           src: 'folieadeux8.jpg',
           description: ''
+        },
+        {
+          src: '',
+          description: '<p>Voor het inrichten van <a href="http://folie-a-deux.be/">een koffiehuis</a> in een voormalige burgerwoning, was het noodzakelijk om bepaalde elementen uit het interieur te halen en ontbrekende voorzieningen toe te voegen.</p><p>We hebben deze twee handelingen echt als  afzonderlijke interventies beschouwd. Ze afzonderlijk ontwerpen verduidelijkte meteen aan welke elementen er waarde wordt gehecht. Het weghalen stond voor ons steeds in functie van het beter laten uitkomen van bestaande delen maar het toont zich ook fysiek in de ruimte, met een massa en vaak ook kleuraanduiding.</p><p>Enkel waar het oorspronkelijke interieur voorzieningen miste werden elementen toegevoegd, die dan wel afstand houden van hun omgeving zodat ze een open interactie aangaan met de gebruiker. Het zijn vrijblijvende, haast abstracte volumes die hun gebruik subtiel suggereren. In geen geval zouden ze het oorspronkelijke interieur willen imiteren of beïnvloeden.</p><p>We hopen dat door de manier waarop we weggenomen en toegevoegd hebben, is er een omgeving ontstaan die de uniciteit in ere houdt en uitnodigt om ze ongedwongen te gaan ontdekken.</p>'
         }
       ]
     },
@@ -87,7 +95,7 @@ angular.module('sw')
         },
         {
           src: '',
-          description: '<p>Still is an ever-changing image. The tubular structure seems to be fleeting from the viewer’s cognitive understanding. By walking around the object, the image changes as the underlying structure dimly appears.<br>So complex the structure, so simple is the tabletop; a solid piece of hardwood with the right dimensions and the right height.</p>'
+          description: '<p>Still is altijd in beweging voor de aanschouwer. De structuur van rondstaal lijkt toch telkens maar weer te ontsnappen aan zijn begrip ervan. Door rond het object te stappen verandert het beeld, terwijl de onderliggende structuur als een schim zichtbaar wordt.</p><p>Zo complex de structuur, zo eenvoudig het tafelblad; een massief stuk hardhout met nét de juiste afmetingen op nét de juiste hoogte.</p>'
         }
       ]
     },

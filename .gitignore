@@ -3,3 +3,5 @@
 # because the node_modules are installed locally and should by installed using NPM,
 # exclude the dependencies from the Git repository.
 node_modules
+
+*.tif
