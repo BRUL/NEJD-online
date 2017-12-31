@@ -41,9 +41,28 @@
 <body>
 
   <!-- Splash page -->
-  <div class="splash" ng-if="$root.title == ''">
+  <div class="splash">
       <a href="/NEJD-online-2.6/projects"><img src="img/NEJD-logo.png" alt="NEJD"></a>
   </div>
+
+  <!-- Content -->
+  <div class="container-fluid" data-ng-view ng-cloak></div>
+
+  <!-- Angularjs -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular-sanitize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular-route.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular-animate.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.2/ui-bootstrap.min.js"></script>
+
+  <!-- Custom website logic and data -->
+  <script src="js/app/main.js"></script>
+  <script src="js/app/projects.js"></script>
 
 </body>
 </html>
